@@ -1,5 +1,178 @@
 <html>
+<head>
+    <title>Ontonomic</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalable=0"/>
+    <meta name="description" content="Ontonomic is a data science and natural language processing consultancy based in the UK"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16"/>
+    <link rel="manifest" href="/manifest.json"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <meta name="msapplication-config" content="none"/>
+    <meta name="theme-color" content="#ffffff"/>
+</head>
+
 <body>
-<p>Hello world</p>
+    <style>
+    @font-face {
+        font-family: "Calibre Regular";
+        src: url("fonts/CalibreWeb-Regular.eot");
+        src: url("fonts/CalibreWeb-Regular.eot") format("embedded-opentype"), url("fonts/CalibreWeb-Regular.woff") format("woff");
+    }
+
+    * {
+        box-sizing: border-box;
+        font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        letter-spacing: 1.8px;
+        font-size: 16px;
+        line-height: 17px;
+        font-family: "Calibre Regular", sans-serif;
+        font-weight: normal;
+        background: black;
+        height: 100%;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        padding-bottom: 2px;
+        display: inline-block;
+        pointer-events: auto;
+    }
+
+    #london a:hover {
+        text-decoration: none;
+        color: #3300ff;
+    }
+
+    #paris a:hover {
+        text-decoration: none;
+        color: #3300ff;
+    }
+
+    span {
+        cursor: default;
+    }
+
+    section {
+        margin-bottom: 30px;
+    }
+
+    .flexbox-container {
+        min-height: 100%;
+    }
+
+    .flexbox-column {
+        display: flex;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .flexbox-column {
+        background-color: #cdb748;
+        color: black;
+        position: relative;
+    }
+
+    .flexbox-content {
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+        pointer-events: none;
+    }
+
+    .flexbox-container > div:first-child {
+        background-color: #b1b09e;
+        color: black;
+    }
+
+    @media (min-width: 768px) {
+        .flexbox-container {
+            display: flex;
+        }
+
+        .flexbox-column {
+            min-height: 100%;
+            width: 50%;
+            background-color: #cdb748;
+            color: black;
+        }
+    }
+
+    .clickableBackground {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .blink {
+        animation: blinker 1.3s infinite;
+    }
+
+    @keyframes blinker {
+        0% {
+            opacity: 1;
+        }
+
+        40% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+    </style>
+
+    <div class="flexbox-container">
+        <div class="flexbox-column">
+            <div class="flexbox-content" id="left">
+                <section>
+                    <span>ONTONOMIC</span>
+                </section>
+                <section>
+                    <p/>
+                    <p>Natural Language Processing</p>
+                    <p/>
+                    <p>Data analysis</p>
+                    <p/>
+                </section>
+            </div>
+     </div>
+
+        <div class="flexbox-column">
+            <div class="flexbox-content" id="right">
+                <section>
+                    <span>PROJECTS</span>
+                </section>
+                <section>
+                    <p/>
+                    <p>PeaceRep</p>
+                    <p/>
+                    <p>Comparative Constitutions Project</p>
+                    <p/>
+                    <p>University of Texas</p>
+                    <p/>
+                    <p>University of Edinburgh</p>
+                    <p/>
+                </section>
+            </div>
+         </div>
+    </div>
+    <style>
+    </style>
 </body>
 </html>
