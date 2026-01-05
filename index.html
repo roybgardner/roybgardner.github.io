@@ -1,26 +1,25 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Ontonomic</title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="minimal-ui">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalable=0">
     <meta name="description" content="Ontonomic is a data science and natural language processing consultancy based in the UK">
-	<link rel="icon" href="/icons/favicon.ico" sizes="32x32">    
-	<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" href="/icons/favicon.ico" sizes="32x32">    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="msapplication-config" content="none">
     <meta name="theme-color" content="#ffffff">
 
     <style>
         @font-face {
             font-family: "Calibre Regular";
             src: url("/fonts/CalibreWeb-Regular.eot");
-            src: url("/fonts/CalibreWeb-Regular.eot") format("embedded-opentype"), url("/fonts/CalibreWeb-Regular.woff") format("woff");
+            src: url("/fonts/CalibreWeb-Regular.eot") format("embedded-opentype"), 
+                 url("/fonts/CalibreWeb-Regular.woff") format("woff");
         }
     
         * {
@@ -31,180 +30,167 @@
         body {
             margin: 0;
             padding: 0;
-            letter-spacing: 1.8px;
-            font-size: 16px;
-            line-height: 17px;
             font-family: "Calibre Regular", sans-serif;
             font-weight: normal;
-            background: #cdb748;
-            height: 100%;
+            background: #f5f5f0;
+            color: #333;
+            font-size: 18px;
+            line-height: 1.4;
+            letter-spacing: 0.3px;
         }
     
         a {
-            color: inherit;
+            color: #333;
             text-decoration: none;
-            padding-bottom: 2px;
-            display: inline-block;
-            pointer-events: auto;
+            border-bottom: 1px solid #cdb748;
+            transition: border-color 0.2s ease;
+        }
+
+        a:hover {
+            border-bottom-color: #333;
         }
     
-        span {
-            cursor: default;
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 60px 40px;
         }
-    
+
+        header {
+            margin-bottom: 80px;
+        }
+
+        h1 {
+            font-size: 16px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-weight: normal;
+            margin: 0 0 60px 0;
+        }
+
+        h1 a {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 16px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-weight: normal;
+            margin: 80px 0 20px 0;
+            color: #666;
+        }
+
         section {
-            margin-bottom: 30px;
+            margin-bottom: 80px;
         }
-    
-        .flexbox-container {
-            min-height: 100%;
+
+        section p {
+            margin: 0 0 1.5em 0;
         }
-    
-        .flexbox-column {
-            display: flex;
-            width: 100%;
-            padding: 30px;
+
+        section p:last-child {
+            margin-bottom: 0;
         }
-    
-        .flexbox-column {
-            background-color: #cdb748;
-            color: black;
-            position: relative;
+
+        ul {
+            margin: 1.0em 0;
+            padding-left: 20px;
         }
-    
-        .flexbox-content {
-            display: flex;
-            flex-direction: column;
-            z-index: 2;
-            pointer-events: none;
+
+        li {
+            margin-bottom: 0.4em;
         }
-    
-        .flexbox-container > div:first-child {
-            background-color: #b1b09e;
-            color: black;
+
+        .project-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
         }
-    
-        @media (min-width: 768px) {
-            .flexbox-container {
-                display: flex;
+
+        .project-list li {
+            margin-bottom: 1.5em;
+        }
+
+        .project-list a {
+            font-size: 18px;
+        }
+
+        footer {
+            margin-top: 100px;
+            padding-top: 40px;
+            border-top: 1px solid #ddd;
+            font-size: 16px;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 30px;
             }
-    
-            .flexbox-column {
-                min-height: 100%;
-                width: 50%;
-                background-color: #cdb748;
-                color: black;
+
+            body {
+                font-size: 16px;
             }
-        }
-    
-        .clickableBackground {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            z-index: 1;
-        }
-    
-        .blink {
-            animation: blinker 1.3s infinite;
-        }
-    
-        @keyframes blinker {
-            0% {
-                opacity: 1;
+
+            h1 {
+                font-size: 14px;
+                margin-bottom: 40px;
             }
-    
-            40% {
-                opacity: 0;
-            }
-    
-            100% {
-                opacity: 1;
+
+            h2 {
+                font-size: 14px;
+                margin: 60px 0 30px 0;
             }
         }
     </style>
-    
-
 </head>
 
-
 <body>
+    <div class="container">
 
-    <div class="flexbox-container">
-        <div class="flexbox-column">
-            <div class="flexbox-content" id="left">
-                <section>
-                    <span><a href="mailto:ontonomic@gmail.com">ONTONOMIC</a></span>
-                </section>
-                <section>
-                    
-                    <p>
-                        Ontonomic is a UK-based research consultancy specialising in:
-                    </p>
+        <section id="about">
+            <p>
+                <a href="mailto:ontonomic@gmail.com">Ontonomic</a> is a UK-based research consultancy specialising in:
+            </p>
 
-                    <ul>
-                        <li>Natural Language Analytics (NLA) using LLMs.</li>
-                        <li>Sentence-level semantic similarity methods for text and concept analysis.</li>
-                        <li>Actor network analysis.</li>
-                    </ul>
+            <ul>
+                <li>Natural Language Analytics (NLA) using LLMs.</li>
+                <li>Sentence-level semantic similarity methods for text and concept analysis.</li>
+                <li>Network analysis.</li>
+            </ul>
 
-                    <p>
-                        LLM-based NLA methods include:
-                    </p>
+            <p>
+                Corpora studied include peace process documents (peace agreements, implementation reports, and mediation documents), national security documents, national constitutions, constitutional court decisions, and research ethics documentation.
+            </p>
+            
+            <p>
+                Actor network analysis includes methods for detecting the generation and fragmentation of actor clusters over time, superimposition of actor networks from difference spaces, hypergraphs, and novel visualisation methods.
+            </p>
+                
+        </section>
 
-                    <ul>
-                        <li>Ontology generation.</li>
-                        <li>Automatic classification of text.</li>
-                        <li>Document synthesis.</li>
-                    </ul>
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <ul class="project-list">
+                <li><a href="https://www.peacerep.org" target="_blank">PeaceRep</a></li>
+                <li><a href="https://comparativeconstitutionsproject.org" target="_blank">Comparative Constitutions Project</a></li>
+                <li><a href="https://conceptintegration.github.io" target="_blank">Concept Integration Lab</a></li>
+                <li><a href="https://datashare.ed.ac.uk/handle/10283/8972" target="_blank">Mapping Security Threats in National Security Documents</a></li>
+            </ul>
+        </section>
 
-                    <p>
-                        Semantic similarity methods include:
-                    </p>
+        <section id="personnel">
+            <h2>Personnel</h2>
+            <p>Dr Roy Gardner. Roy is Ontonomic's senior partner.</p>
+            <p>Dr Sally Gardner. Sally an ontology and knowledge engineer.</p>
+            <p>Callum Wilson. Callum is a mathematician and data scientist working on LLMs and tensors.</p>
+        </section>
 
-                    <ul>
-                        <li>Multilingual content analysis and classification.</li>
-                        <li>Topic discovery.</li>
-                        <li>Analysis of conceptual ecologies.</li>
-                    </ul>
-
-                    <p>
-                        Corpora studied include peace process documents (peace agreements, implementation reports, and mediation documents), national security documents, national constitutions, constitutional court decisions, and research ethics documentation.
-                    </p>
-                    
-                    <p>
-                        Actor network analysis includes methods for detecting the generation and fragmentation of actor clusters over time, superimposition of actor networks from difference spaces, hypergraphs, and novel visualisation methods.
-                    </p>
-                        
-                    <p>
-                        We are currently working on a synthesis of the topic discovery and actor network strands.
-                    </p>
-                    
-                </section>
-            </div>
-     </div>
-
-        <div class="flexbox-column">
-            <div class="flexbox-content" id="right">
-                <section>
-                    <span>WORK</span>
-                </section>
-                <section>
-                    
-                    <p><a href="https://www.peacerep.org" target="_blank">PeaceRep</a></p>
-                    
-                    <p><a href="https://comparativeconstitutionsproject.org" target="_blank">Comparative Constitutions Project</a></p>
-                    
-                    <p><a href="https://conceptintegration.github.io" target="_blank">Concept Integration Lab</a></p>
-                    
-                    <p><a href="https://datashare.ed.ac.uk/handle/10283/8972" target="_blank">Mapping Security Threats in National Security Documents</a></p>
-                    
-                </section>
-            </div>
-         </div>
+        <footer>
+            <p>© 2026 Ontonomic</p>
+        </footer>
     </div>
 </body>
-
-
 </html>
