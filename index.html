@@ -124,26 +124,35 @@
             color: #666;
         }
 
-        @media (max-width: 768px) {
-            .container {
-                padding: 40px 30px;
-            }
+		@media (max-width: 768px) {
+			.container {
+				padding: 40px 30px;
+			}
 
-            body {
-                font-size: 16px;
-            }
+			body {
+				font-size: 16px;
+			}
 
-            h1 {
-                font-size: 14px;
-                margin-bottom: 40px;
-            }
+			h1 {
+				font-size: 14px;
+				margin-bottom: 40px;
+			}
 
-            h2 {
-                font-size: 14px;
-                margin: 60px 0 30px 0;
-            }
-        }
-    </style>
+			h2 {
+				font-size: 14px;
+				margin: 60px 0 30px 0;
+			}
+	
+			/* Add these lines: */
+			.project-list a {
+				font-size: 16px;  /* Match body font size on mobile */
+			}
+	
+			a {
+				-webkit-text-size-adjust: 100%;
+			}
+		}    
+</style>
 </head>
 
 <body>
