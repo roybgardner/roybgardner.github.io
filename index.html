@@ -129,6 +129,34 @@
             font-size: 16px;
         }
 
+        .references {
+            list-style: decimal;
+            padding-left: 24px;
+            margin: 0;
+            font-size: 16px;
+            color: #444;
+        }
+
+        .references li {
+            margin-bottom: 1.4em;
+            line-height: 1.5;
+            padding-left: 6px;
+        }
+
+        .references li:last-child {
+            margin-bottom: 0;
+        }
+
+        .references cite {
+            font-style: italic;
+        }
+
+        .references a {
+            /* Long DOI strings break instead of forcing horizontal scroll on mobile */
+            overflow-wrap: anywhere;
+            word-break: break-word;
+        }
+
         footer {
             margin-top: 100px;
             padding-top: 40px;
@@ -210,7 +238,7 @@
                 <li><a href="https://www.peacerep.org" target="_blank">PeaceRep</a></li>
                 <li><a href="https://comparativeconstitutionsproject.org" target="_blank">Comparative Constitutions Project</a></li>
                 <li><a href="https://conceptintegration.github.io" target="_blank">Concept Integration Lab</a></li>
-                <li><a href="https://datashare.ed.ac.uk/handle/10283/9156" target="_blank">Mapping Security Threats in National Security Documents</a></li>
+                <li><a href="https://datashare.ed.ac.uk/handle/10283/9182" target="_blank">Mapping Security Threats in National Security Documents</a></li>
             </ul>
         </section>
 
@@ -237,6 +265,33 @@
             <p>Sally Gardner. Sally is an ontology and knowledge engineer.</p>
             <p>Callum Wilson. Callum is a mathematician and data scientist working with LLMs and tensors.</p>
             <p><a href="https://mattjmartin.com/" target="_blank">Matt Martin</a>. Matt is a political scientist interested in computational methodologies and natural language processing.</p>
+        </section>
+
+        <section id="references">
+            <h2>Sample Publications</h2>
+            <ol class="references">
+                <li>
+                    Neal, A., &amp; Gardner, R. (2026). <cite>National Security and Defence Documents Dataset (1987&ndash;2025) v3.5</cite> [Data set]. PeaceRep, University of Edinburgh. <a href="https://doi.org/10.7488/ds/8101" target="_blank">https://doi.org/10.7488/ds/8101</a>
+                </li>
+                <li>
+                    Neal, A. W., Rogers, L., &amp; Gardner, R. B. (2026). The Shifting Referents of Space Security. In <cite>Security and Space</cite> (pp. 179&ndash;194). Bristol University Press. <a href="https://doi.org/10.51952/9781529245714.ch011" target="_blank">https://doi.org/10.51952/9781529245714.ch011</a>
+                </li>
+                <li>
+                    Gardner, R., Martin, M., Moran, A., Elkins, Z., Cruz, A., &amp; Pérez, G. (2026). Expanding Your Vocabulary: A Framework for Topic Integration in Texts. <cite>Social Science Computer Review</cite>. <a href="https://doi.org/10.1177/08944393261443513" target="_blank">https://doi.org/10.1177/08944393261443513</a>
+                </li>
+                <li>
+                    Cruz, A., Elkins, Z., Gardner, R., Martin, M., &amp; Moran, A. (2023). Measuring constitutional preferences: A new method for analyzing public consultation data. <cite>PLOS ONE</cite>, 18(12), e0295396. <a href="https://doi.org/10.1371/journal.pone.0295396" target="_blank">https://doi.org/10.1371/journal.pone.0295396</a>
+                </li>
+                <li>
+                    Gardner, R. (2023). <cite>Semantic Analysis to Support Peace Analytics</cite>. PeaceRep, University of Edinburgh. <a href="https://doi.org/10.7488/era/5252" target="_blank">https://doi.org/10.7488/era/5252</a>
+                </li>
+                <li>
+                    Neal, A., Wilson, L., &amp; Gardner, R. (2022). <cite>National Security Strategies, Emergent Powers and &lsquo;Sustaining Peace&rsquo;</cite>. PeaceRep, University of Edinburgh. <a href="https://doi.org/10.7488/era/5212" target="_blank">https://doi.org/10.7488/era/5212</a>
+                </li>
+                <li>
+                    Gardner, R., &amp; Bell, C. (2022). <cite>Global Realignments: Understanding Peace Process Interventions Through News</cite>. PeaceRep, University of Edinburgh. <a href="https://doi.org/10.7488/era/5213" target="_blank">https://doi.org/10.7488/era/5213</a>
+                </li>
+            </ol>
         </section>
 
         <footer>
