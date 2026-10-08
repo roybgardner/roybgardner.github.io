@@ -2,11 +2,11 @@
 
 > Ontonomic is a UK-based research and engineering consultancy specialising in ontology engineering for large collections of political and legal text. Partners: Roy Gardner (Senior Partner), Sally Gardner and Callum Wilson. Associate: Matt Martin. Contact: enquiries@ontonomic.com
 
-Ontonomic treats ontologies as engineered artefacts: designed carefully, tested against evidence, maintained over time, and compared on their merits. Designing an ontology and applying it to real documents are treated as inseparable tasks.
+Ontonomic treats ontologies as engineered artefacts: designed carefully, tested against evidence, maintained over time, and compared on their merits. Designing an ontology and applying it to real documents are treated as inseparable tasks. We combine large language models with ontologies and knowledge graphs, so that AI analysis of text rests on explicit, tested conceptual structure.
 
 ## Services
 
-- [Ontology engineering](https://ontonomic.com/#ontology-engineering): build ontologies, code text, analyse topic networks. LLM-based coding of text segments against an ontology, with calibration, and analysis of topic networks traceable to the supporting text.
+- [Ontology engineering](https://ontonomic.com/#ontology-engineering): build ontologies, code text with LLMs, analyse topic networks. LLM-based coding of text segments against an ontology, with calibration, and analysis of topic networks traceable to the supporting text.
 - [Knowledge graphs](https://ontonomic.com/#knowledge-graphs): entity and relation extraction from text, built on domain ontologies and delivered through Graphtensor for querying and analysis.
 - [Data infrastructure](https://ontonomic.com/#data-infrastructure): design and engineering of research data platforms, including the CCP Portal for the Comparative Constitutions Project.
 
