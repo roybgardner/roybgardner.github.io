@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
     <title>Ontonomic | Ontology Engineering for Political and Legal Text</title>
 
@@ -15,7 +15,12 @@
     <link rel="manifest" href="/site.webmanifest">
     <meta name="theme-color" content="#ffffff">
 
+    <meta name="author" content="Roy Gardner, Sally Gardner, Callum Wilson">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable summary">
+
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_GB">
     <meta property="og:site_name" content="Ontonomic">
     <meta property="og:title" content="Ontonomic | Ontology Engineering for Political and Legal Text">
     <meta property="og:description" content="UK-based research and engineering consultancy specialising in ontology engineering for political and legal text: ontology design, LLM-based text coding, topic network analysis and knowledge graph construction.">
@@ -28,23 +33,418 @@
 
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Ontonomic",
-        "url": "https://ontonomic.com/",
-        "logo": "https://ontonomic.com/icons/android-chrome-512x512.png",
-        "description": "UK-based research and engineering consultancy specialising in ontology engineering for political and legal text: ontology design, LLM-based text coding, topic network analysis and knowledge graph construction.",
-        "email": "enquiries@ontonomic.com",
-        "founder": [
-            { "@type": "Person", "name": "Roy Gardner" },
-            { "@type": "Person", "name": "Sally Gardner" }
-        ],
-        "employee": [
-            { "@type": "Person", "name": "Roy Gardner", "jobTitle": "Senior Partner" },
-            { "@type": "Person", "name": "Sally Gardner", "jobTitle": "Ontology and Knowledge Engineer" },
-            { "@type": "Person", "name": "Callum Wilson", "jobTitle": "Mathematician and Data Scientist" },
-            { "@type": "Person", "name": "Matt Martin", "jobTitle": "Associate", "url": "https://mattjmartin.com/" }
-        ]
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": [
+            "Organization",
+            "ProfessionalService"
+          ],
+          "@id": "https://ontonomic.com/#organization",
+          "name": "Ontonomic",
+          "url": "https://ontonomic.com/",
+          "logo": "https://ontonomic.com/icons/android-chrome-512x512.png",
+          "image": "https://ontonomic.com/icons/android-chrome-512x512.png",
+          "description": "UK-based research and engineering consultancy specialising in ontology engineering for political and legal text: ontology design, LLM-based text coding, topic network analysis and knowledge graph construction.",
+          "email": "enquiries@ontonomic.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "GB"
+          },
+          "areaServed": "Worldwide",
+          "founder": [
+            {
+              "@id": "https://ontonomic.com/#roy-gardner"
+            },
+            {
+              "@id": "https://ontonomic.com/#sally-gardner"
+            }
+          ],
+          "member": [
+            {
+              "@id": "https://ontonomic.com/#roy-gardner"
+            },
+            {
+              "@id": "https://ontonomic.com/#sally-gardner"
+            },
+            {
+              "@id": "https://ontonomic.com/#callum-wilson"
+            },
+            {
+              "@id": "https://ontonomic.com/#matt-martin"
+            }
+          ],
+          "knowsAbout": [
+            "Ontology engineering",
+            "Computational ontology design",
+            "Large language model text classification",
+            "Semantic similarity",
+            "Topic network analysis",
+            "Knowledge graph construction",
+            "Political text analysis",
+            "Peace agreements",
+            "Comparative constitutional law",
+            "National security documents"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "enquiries",
+            "email": "enquiries@ontonomic.com",
+            "availableLanguage": "English"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@id": "https://ontonomic.com/#ontometer"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@id": "https://ontonomic.com/#knowledge-graphs"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@id": "https://ontonomic.com/#data-infrastructure"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ontonomic.com/#website",
+          "url": "https://ontonomic.com/",
+          "name": "Ontonomic",
+          "publisher": {
+            "@id": "https://ontonomic.com/#organization"
+          },
+          "inLanguage": "en-GB"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://ontonomic.com/#webpage",
+          "url": "https://ontonomic.com/",
+          "name": "Ontonomic | Ontology Engineering for Political and Legal Text",
+          "description": "UK-based research and engineering consultancy specialising in ontology engineering for political and legal text: ontology design, LLM-based text coding, topic network analysis and knowledge graph construction.",
+          "isPartOf": {
+            "@id": "https://ontonomic.com/#website"
+          },
+          "about": {
+            "@id": "https://ontonomic.com/#organization"
+          },
+          "inLanguage": "en-GB"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://ontonomic.com/#roy-gardner",
+          "name": "Roy Gardner",
+          "alternateName": "Roy B. Gardner",
+          "jobTitle": "Senior Partner",
+          "worksFor": {
+            "@id": "https://ontonomic.com/#organization"
+          },
+          "knowsAbout": [
+            "Ontology engineering",
+            "Semantic similarity",
+            "Peace agreement analysis",
+            "Topic network analysis"
+          ]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://ontonomic.com/#sally-gardner",
+          "name": "Sally Gardner",
+          "jobTitle": "Partner, Ontology and Knowledge Engineer",
+          "worksFor": {
+            "@id": "https://ontonomic.com/#organization"
+          },
+          "knowsAbout": [
+            "Ontology engineering",
+            "Knowledge engineering"
+          ]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://ontonomic.com/#callum-wilson",
+          "name": "Callum Wilson",
+          "jobTitle": "Partner, Mathematician and Data Scientist",
+          "worksFor": {
+            "@id": "https://ontonomic.com/#organization"
+          },
+          "knowsAbout": [
+            "Large language models",
+            "Tensor methods",
+            "Data science"
+          ]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://ontonomic.com/#matt-martin",
+          "name": "Matt Martin",
+          "jobTitle": "Associate, Political Scientist",
+          "url": "https://mattjmartin.com/",
+          "sameAs": [
+            "https://mattjmartin.com/"
+          ],
+          "affiliation": {
+            "@id": "https://ontonomic.com/#organization"
+          },
+          "knowsAbout": [
+            "Political science",
+            "Computational methods",
+            "Natural language processing"
+          ]
+        },
+        {
+          "@type": "Service",
+          "@id": "https://ontonomic.com/#ontometer",
+          "name": "Ontometer",
+          "serviceType": "Ontology engineering",
+          "description": "Our ontology engineering service: build ontologies, code text, analyse topic networks.",
+          "provider": {
+            "@id": "https://ontonomic.com/#organization"
+          },
+          "areaServed": "Worldwide"
+        },
+        {
+          "@type": "Service",
+          "@id": "https://ontonomic.com/#knowledge-graphs",
+          "name": "Knowledge graph construction",
+          "serviceType": "Knowledge graph construction",
+          "description": "Entity and relation extraction from text, built on domain ontologies to support structured querying and actor and concept network analysis.",
+          "provider": {
+            "@id": "https://ontonomic.com/#organization"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://ontonomic.com/#data-infrastructure",
+          "name": "Data infrastructure",
+          "serviceType": "Research data platform engineering",
+          "description": "Design and engineering of research data platforms, including the CCP Portal for the Comparative Constitutions Project.",
+          "provider": {
+            "@id": "https://ontonomic.com/#organization"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://ontonomic.com/#rida",
+          "name": "RIDA",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "Web",
+          "description": "An AI retrievability audit tool that measures how visible an academic journal is to AI retrieval and RAG pipelines.",
+          "creator": {
+            "@id": "https://ontonomic.com/#organization"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://ontonomic.com/#graphtensor",
+          "name": "Graphtensor",
+          "applicationCategory": "ResearchApplication",
+          "description": "A natural language query system for structured research corpora, compiling questions into operations across a knowledge graph and a tensor space.",
+          "creator": {
+            "@id": "https://ontonomic.com/#organization"
+          }
+        },
+        {
+          "@type": "Dataset",
+          "name": "National Security and Defence Documents Dataset (1987–2025) v3.5",
+          "datePublished": "2026",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "Andrew Neal"
+            },
+            {
+              "@id": "https://ontonomic.com/#roy-gardner"
+            }
+          ],
+          "identifier": "https://doi.org/10.7488/ds/8101",
+          "url": "https://doi.org/10.7488/ds/8101",
+          "sameAs": "https://doi.org/10.7488/ds/8101",
+          "publisher": {
+            "@type": "Organization",
+            "name": "PeaceRep, University of Edinburgh"
+          }
+        },
+        {
+          "@type": "Chapter",
+          "name": "The Shifting Referents of Space Security",
+          "datePublished": "2026",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "Andrew W. Neal"
+            },
+            {
+              "@type": "Person",
+              "name": "L. Rogers"
+            },
+            {
+              "@id": "https://ontonomic.com/#roy-gardner"
+            }
+          ],
+          "identifier": "https://doi.org/10.51952/9781529245714.ch011",
+          "url": "https://doi.org/10.51952/9781529245714.ch011",
+          "sameAs": "https://doi.org/10.51952/9781529245714.ch011",
+          "isPartOf": {
+            "@type": "Book",
+            "name": "Security and Space",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Bristol University Press"
+            }
+          },
+          "pagination": "179–194"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Expanding Your Vocabulary: A Framework for Topic Integration in Texts",
+          "datePublished": "2026",
+          "author": [
+            {
+              "@id": "https://ontonomic.com/#roy-gardner"
+            },
+            {
+              "@id": "https://ontonomic.com/#matt-martin"
+            },
+            {
+              "@type": "Person",
+              "name": "A. Moran"
+            },
+            {
+              "@type": "Person",
+              "name": "Z. Elkins"
+            },
+            {
+              "@type": "Person",
+              "name": "A. Cruz"
+            },
+            {
+              "@type": "Person",
+              "name": "G. Pérez"
+            }
+          ],
+          "identifier": "https://doi.org/10.1177/08944393261443513",
+          "url": "https://doi.org/10.1177/08944393261443513",
+          "sameAs": "https://doi.org/10.1177/08944393261443513",
+          "isPartOf": {
+            "@type": "Periodical",
+            "name": "Social Science Computer Review"
+          }
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Measuring constitutional preferences: A new method for analyzing public consultation data",
+          "datePublished": "2023",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "A. Cruz"
+            },
+            {
+              "@type": "Person",
+              "name": "Z. Elkins"
+            },
+            {
+              "@id": "https://ontonomic.com/#roy-gardner"
+            },
+            {
+              "@id": "https://ontonomic.com/#matt-martin"
+            },
+            {
+              "@type": "Person",
+              "name": "A. Moran"
+            }
+          ],
+          "identifier": "https://doi.org/10.1371/journal.pone.0295396",
+          "url": "https://doi.org/10.1371/journal.pone.0295396",
+          "sameAs": "https://doi.org/10.1371/journal.pone.0295396",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": "12",
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": "18",
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "PLOS ONE"
+              }
+            }
+          }
+        },
+        {
+          "@type": "Report",
+          "name": "Semantic Analysis to Support Peace Analytics",
+          "datePublished": "2023",
+          "author": [
+            {
+              "@id": "https://ontonomic.com/#roy-gardner"
+            }
+          ],
+          "identifier": "https://doi.org/10.7488/era/5252",
+          "url": "https://doi.org/10.7488/era/5252",
+          "sameAs": "https://doi.org/10.7488/era/5252",
+          "publisher": {
+            "@type": "Organization",
+            "name": "PeaceRep, University of Edinburgh"
+          }
+        },
+        {
+          "@type": "Report",
+          "name": "National Security Strategies, Emergent Powers and ‘Sustaining Peace’",
+          "datePublished": "2022",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "Andrew Neal"
+            },
+            {
+              "@type": "Person",
+              "name": "L. Wilson"
+            },
+            {
+              "@id": "https://ontonomic.com/#roy-gardner"
+            }
+          ],
+          "identifier": "https://doi.org/10.7488/era/5212",
+          "url": "https://doi.org/10.7488/era/5212",
+          "sameAs": "https://doi.org/10.7488/era/5212",
+          "publisher": {
+            "@type": "Organization",
+            "name": "PeaceRep, University of Edinburgh"
+          }
+        },
+        {
+          "@type": "Report",
+          "name": "Global Realignments: Understanding Peace Process Interventions Through News",
+          "datePublished": "2022",
+          "author": [
+            {
+              "@id": "https://ontonomic.com/#roy-gardner"
+            },
+            {
+              "@type": "Person",
+              "name": "Christine Bell"
+            }
+          ],
+          "identifier": "https://doi.org/10.7488/era/5213",
+          "url": "https://doi.org/10.7488/era/5213",
+          "sameAs": "https://doi.org/10.7488/era/5213",
+          "publisher": {
+            "@type": "Organization",
+            "name": "PeaceRep, University of Edinburgh"
+          }
+        }
+      ]
     }
     </script>
 
@@ -255,13 +655,13 @@
             <h2>Services</h2>
 
             <ul class="project-list">
-                <li>
+                <li id="ontometer">
                     <span class="app-name">Ontometer</span> &mdash; our ontology engineering service: build ontologies, code text, analyse topic networks.
                 </li>
-                <li>
+                <li id="knowledge-graphs">
                     <span class="app-name">Knowledge graphs</span> &mdash; entity and relation extraction from text, built on domain ontologies to support structured querying and actor and concept network analysis.
                 </li>
-                <li>
+                <li id="data-infrastructure">
                     <span class="app-name">Data infrastructure</span> &mdash; design and engineering of research data platforms. Recent work: the CCP Portal for the Comparative Constitutions Project, serving constitutional events, codings and country data.
                 </li>
             </ul>
@@ -284,11 +684,11 @@
             <p>Research programmes we contribute to:</p>
 
             <ul class="project-list">
-                <li><a href="https://www.linnaeus.world/collection/academicfreedom" target="_blank">Linnaeus</a></li>
-                <li><a href="https://www.peacerep.org" target="_blank">PeaceRep</a></li>
-                <li><a href="https://comparativeconstitutionsproject.org" target="_blank">Comparative Constitutions Project</a></li>
-                <li><a href="https://conceptintegration.github.io" target="_blank">Concept Integration Lab</a></li>
-                <li><a href="https://datashare.ed.ac.uk/handle/10283/9182" target="_blank">Mapping Security Threats in National Security Documents</a></li>
+                <li><a href="https://www.linnaeus.world/collection/academicfreedom" target="_blank" rel="noopener">Linnaeus</a></li>
+                <li><a href="https://www.peacerep.org" target="_blank" rel="noopener">PeaceRep</a></li>
+                <li><a href="https://comparativeconstitutionsproject.org" target="_blank" rel="noopener">Comparative Constitutions Project</a></li>
+                <li><a href="https://conceptintegration.github.io" target="_blank" rel="noopener">Concept Integration Lab</a></li>
+                <li><a href="https://datashare.ed.ac.uk/handle/10283/9182" target="_blank" rel="noopener">Mapping Security Threats in National Security Documents</a></li>
             </ul>
         </section>
 
@@ -308,35 +708,35 @@
 
         <section id="people">
             <h2>People</h2>
-            <p>Roy Gardner. Roy is Ontonomic's senior partner.</p>
-            <p>Sally Gardner. Sally is an ontology and knowledge engineer.</p>
-            <p>Callum Wilson. Callum is a mathematician and data scientist working with LLMs and tensors.</p>
-            <p><a href="https://mattjmartin.com/" target="_blank">Matt Martin</a>. Matt is an Ontonomic associate and a political scientist interested in computational methodologies and natural language processing.</p>
+            <p id="roy-gardner">Roy Gardner. Roy is Ontonomic's senior partner.</p>
+            <p id="sally-gardner">Sally Gardner. Sally is a partner and an ontology and knowledge engineer.</p>
+            <p id="callum-wilson">Callum Wilson. Callum is a partner and a mathematician and data scientist working with LLMs and tensors.</p>
+            <p id="matt-martin"><a href="https://mattjmartin.com/" target="_blank" rel="noopener">Matt Martin</a>. Matt is an Ontonomic associate and a political scientist interested in computational methodologies and natural language processing.</p>
         </section>
 
         <section id="references">
             <h2>Selected Publications</h2>
             <ol class="references">
                 <li>
-                    Neal, A., &amp; Gardner, R. (2026). <cite>National Security and Defence Documents Dataset (1987&ndash;2025) v3.5</cite> [Data set]. PeaceRep, University of Edinburgh. <a href="https://doi.org/10.7488/ds/8101" target="_blank">https://doi.org/10.7488/ds/8101</a>
+                    Neal, A., &amp; Gardner, R. (2026). <cite>National Security and Defence Documents Dataset (1987&ndash;2025) v3.5</cite> [Data set]. PeaceRep, University of Edinburgh. <a href="https://doi.org/10.7488/ds/8101" target="_blank" rel="noopener">https://doi.org/10.7488/ds/8101</a>
                 </li>
                 <li>
-                    Neal, A. W., Rogers, L., &amp; Gardner, R. B. (2026). The Shifting Referents of Space Security. In <cite>Security and Space</cite> (pp. 179&ndash;194). Bristol University Press. <a href="https://doi.org/10.51952/9781529245714.ch011" target="_blank">https://doi.org/10.51952/9781529245714.ch011</a>
+                    Neal, A. W., Rogers, L., &amp; Gardner, R. B. (2026). The Shifting Referents of Space Security. In <cite>Security and Space</cite> (pp. 179&ndash;194). Bristol University Press. <a href="https://doi.org/10.51952/9781529245714.ch011" target="_blank" rel="noopener">https://doi.org/10.51952/9781529245714.ch011</a>
                 </li>
                 <li>
-                    Gardner, R., Martin, M., Moran, A., Elkins, Z., Cruz, A., &amp; Pérez, G. (2026). Expanding Your Vocabulary: A Framework for Topic Integration in Texts. <cite>Social Science Computer Review</cite>. <a href="https://doi.org/10.1177/08944393261443513" target="_blank">https://doi.org/10.1177/08944393261443513</a>
+                    Gardner, R., Martin, M., Moran, A., Elkins, Z., Cruz, A., &amp; Pérez, G. (2026). Expanding Your Vocabulary: A Framework for Topic Integration in Texts. <cite>Social Science Computer Review</cite>. <a href="https://doi.org/10.1177/08944393261443513" target="_blank" rel="noopener">https://doi.org/10.1177/08944393261443513</a>
                 </li>
                 <li>
-                    Cruz, A., Elkins, Z., Gardner, R., Martin, M., &amp; Moran, A. (2023). Measuring constitutional preferences: A new method for analyzing public consultation data. <cite>PLOS ONE</cite>, 18(12), e0295396. <a href="https://doi.org/10.1371/journal.pone.0295396" target="_blank">https://doi.org/10.1371/journal.pone.0295396</a>
+                    Cruz, A., Elkins, Z., Gardner, R., Martin, M., &amp; Moran, A. (2023). Measuring constitutional preferences: A new method for analyzing public consultation data. <cite>PLOS ONE</cite>, 18(12), e0295396. <a href="https://doi.org/10.1371/journal.pone.0295396" target="_blank" rel="noopener">https://doi.org/10.1371/journal.pone.0295396</a>
                 </li>
                 <li>
-                    Gardner, R. (2023). <cite>Semantic Analysis to Support Peace Analytics</cite>. PeaceRep, University of Edinburgh. <a href="https://doi.org/10.7488/era/5252" target="_blank">https://doi.org/10.7488/era/5252</a>
+                    Gardner, R. (2023). <cite>Semantic Analysis to Support Peace Analytics</cite>. PeaceRep, University of Edinburgh. <a href="https://doi.org/10.7488/era/5252" target="_blank" rel="noopener">https://doi.org/10.7488/era/5252</a>
                 </li>
                 <li>
-                    Neal, A., Wilson, L., &amp; Gardner, R. (2022). <cite>National Security Strategies, Emergent Powers and &lsquo;Sustaining Peace&rsquo;</cite>. PeaceRep, University of Edinburgh. <a href="https://doi.org/10.7488/era/5212" target="_blank">https://doi.org/10.7488/era/5212</a>
+                    Neal, A., Wilson, L., &amp; Gardner, R. (2022). <cite>National Security Strategies, Emergent Powers and &lsquo;Sustaining Peace&rsquo;</cite>. PeaceRep, University of Edinburgh. <a href="https://doi.org/10.7488/era/5212" target="_blank" rel="noopener">https://doi.org/10.7488/era/5212</a>
                 </li>
                 <li>
-                    Gardner, R., &amp; Bell, C. (2022). <cite>Global Realignments: Understanding Peace Process Interventions Through News</cite>. PeaceRep, University of Edinburgh. <a href="https://doi.org/10.7488/era/5213" target="_blank">https://doi.org/10.7488/era/5213</a>
+                    Gardner, R., &amp; Bell, C. (2022). <cite>Global Realignments: Understanding Peace Process Interventions Through News</cite>. PeaceRep, University of Edinburgh. <a href="https://doi.org/10.7488/era/5213" target="_blank" rel="noopener">https://doi.org/10.7488/era/5213</a>
                 </li>
             </ol>
         </section>
