@@ -7,7 +7,7 @@ Ontonomic treats ontologies as engineered artefacts: designed carefully, tested 
 ## Services
 
 - [Ontology engineering](https://ontonomic.com/#ontology-engineering): build ontologies, code text, analyse topic networks. LLM-based coding of text segments against an ontology, with calibration, and analysis of topic networks traceable to the supporting text.
-- [Knowledge graphs](https://ontonomic.com/#knowledge-graphs): entity and relation extraction from text, built on domain ontologies to support structured querying and actor and concept network analysis.
+- [Knowledge graphs](https://ontonomic.com/#knowledge-graphs): entity and relation extraction from text, built on domain ontologies. We combine graphs with tensors to support structured querying and analysis over source text.
 - [Data infrastructure](https://ontonomic.com/#data-infrastructure): design and engineering of research data platforms, including the CCP Portal for the Comparative Constitutions Project.
 
 ## Research
