@@ -1,0 +1,33 @@
+# Ontonomic
+
+> Ontonomic is a UK-based research and engineering consultancy specialising in ontology engineering for large collections of political and legal text. Partners: Roy Gardner (Senior Partner), Sally Gardner and Callum Wilson. Associate: Matt Martin. Contact: enquiries@ontonomic.com
+
+Ontonomic treats ontologies as engineered artefacts: designed carefully, tested against evidence, maintained over time, and compared on their merits. Designing an ontology and applying it to real documents are treated as inseparable tasks.
+
+## Services
+
+- [Ontometer](https://ontonomic.com/#ontometer): our ontology engineering service — build ontologies, code text, analyse topic networks. LLM-based coding of text segments against an ontology, with calibration, and analysis of topic networks traceable to the supporting text.
+- [Knowledge graphs](https://ontonomic.com/#knowledge-graphs): entity and relation extraction from text, built on domain ontologies to support structured querying and actor and concept network analysis.
+- [Data infrastructure](https://ontonomic.com/#data-infrastructure): design and engineering of research data platforms, including the CCP Portal for the Comparative Constitutions Project.
+
+## Research
+
+- Sentence-level semantic similarity for text and concept analysis.
+- Ontology expansion and comparison, including the SAT method for topic integration.
+- Tensor-based analysis of topic co-occurrence across documents.
+- Corpora: peace agreements and peace process documents, national security documents, national constitutions, constitutional court decisions, research ethics documentation.
+- Programmes: PeaceRep (University of Edinburgh), Comparative Constitutions Project, Concept Integration Lab, Linnaeus, Mapping Security Threats in National Security Documents.
+
+## Applications
+
+- RIDA: an AI retrievability audit tool measuring how visible an academic journal is to AI retrieval and RAG pipelines.
+- Graphtensor: a natural language query system for structured research corpora, compiling questions into operations across a knowledge graph and a tensor space.
+
+## Selected publications
+
+- Gardner, R., Martin, M., Moran, A., Elkins, Z., Cruz, A., & Pérez, G. (2026). Expanding Your Vocabulary: A Framework for Topic Integration in Texts. Social Science Computer Review. https://doi.org/10.1177/08944393261443513
+- Neal, A., & Gardner, R. (2026). National Security and Defence Documents Dataset (1987–2025) v3.5. PeaceRep, University of Edinburgh. https://doi.org/10.7488/ds/8101
+- Neal, A. W., Rogers, L., & Gardner, R. B. (2026). The Shifting Referents of Space Security. In Security and Space. Bristol University Press. https://doi.org/10.51952/9781529245714.ch011
+- Cruz, A., Elkins, Z., Gardner, R., Martin, M., & Moran, A. (2023). Measuring constitutional preferences. PLOS ONE 18(12). https://doi.org/10.1371/journal.pone.0295396
+- Gardner, R. (2023). Semantic Analysis to Support Peace Analytics. PeaceRep. https://doi.org/10.7488/era/5252
+- Gardner, R., & Bell, C. (2022). Global Realignments: Understanding Peace Process Interventions Through News. PeaceRep. https://doi.org/10.7488/era/5213
