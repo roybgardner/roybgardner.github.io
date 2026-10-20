@@ -25,6 +25,7 @@ Ontonomic treats ontologies as engineered artefacts: designed carefully, tested 
 
 ## Selected publications
 
+- Neal, A., & Gardner, R. (forthcoming). Securitization Through Inscription: National Security Documents and the Making of a Global Threat Lexicon (1987–2025). Contemporary Security Policy.
 - Gardner, R., Martin, M., Moran, A., Elkins, Z., Cruz, A., & Pérez, G. (2026). Expanding Your Vocabulary: A Framework for Topic Integration in Texts. Social Science Computer Review. https://doi.org/10.1177/08944393261443513
 - Neal, A., & Gardner, R. (2026). National Security and Defence Documents Dataset (1987–2025) v3.5. PeaceRep, University of Edinburgh. https://doi.org/10.7488/ds/8101
 - Neal, A. W., Rogers, L., & Gardner, R. B. (2026). The Shifting Referents of Space Security. In Security and Space. Bristol University Press. https://doi.org/10.51952/9781529245714.ch011
